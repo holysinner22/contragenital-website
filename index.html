@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <title> Contra-Congenital Foundation </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Non-profit organization dedicated to supporting children with congenital anomalies through care, education, and community programs.">
+    <meta name="keywords" content="congenital anomalies, child healthcare, nonprofit, donation, volunteer">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="logo1.png" as="image">
+    
+    <!-- DNS prefetch for external domains -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+<!-- Add this to your head section or ensure these are loaded -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Web Fonts with fallback -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"></noscript>
+
+    <!-- Icon Fonts - Load only what's needed -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Deferred non-critical CSS -->
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.min.css" media="print" onload="this.media='all'">
+    
+    <!-- Bootstrap JS for collapse functionality -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Deferred main styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="css/style.css" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <!-- Preloaded scripts -->
+    <!-- Load required libraries first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Then load your combined JavaScript file -->
+<script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Spinner with reduced motion consideration -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed top-0 start-0 d-flex align-items-center justify-content-center" aria-live="polite" aria-label="Loading">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+<!-- Simplified Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <img src="logo1.png" alt="Contra-Congenital Foundation Logo" height="40">
+    </a>
+
+    <!-- Hamburger toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible nav content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#donation">Donate</a></li>
+        <li class="nav-item"><a class="nav-link" href="#staff">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Call to action button -->
+      <a href="#donation" class="btn btn-primary ms-lg-3">Donate Now</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the navbar collapse element
+  const navbarCollapse = document.getElementById('navbarContent');
+  
+  // Get all nav links and buttons that should trigger collapse
+  const navItems = document.querySelectorAll('.navbar-nav .nav-link, .navbar .btn');
+  
+  // Add click event to each item
+  navItems.forEach(function(item) {
+    item.addEventListener('click', function() {
+      // Only collapse if in mobile view (navbar is expanded)
+      if (window.innerWidth <= 991.98 && navbarCollapse.classList.contains('show')) {
+        // Create Bootstrap collapse instance and hide it
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      }
+    });
+  });
+});
+</script>
+
+
+<main id="main-content">
+  <section id="home" class="carousel-section" aria-labelledby="carousel-heading">
+    <div id="mainCarousel" class="carousel slide carousel-fade vh-100" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="home1.jpg" class="carousel-image" alt="Children playing together" loading="lazy">
+          <div class="carousel-caption">
+            <div class="p-3" style="max-width: 900px;">
+              <h2 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">
+                Together, We Give Every Child a Healthy Start in Life
+              </h2>
+              <p class="display-1 text-capitalize text-white mb-4">Be The Difference</p>
+              <p class="mb-5 fs-5 text-white">
+                Volunteer, Donate, Or Partner. There Is A Place For You In This Mission Of Hope
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="home2.jpg" class="carousel-image" alt="Smiling children" loading="lazy">
+          <div class="carousel-caption">
+            <div class="p-3" style="max-width: 900px;">
+              <h2 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">
+                Empower, Educate, Transform
+              </h2>
+              <p class="display-1 text-capitalize text-white mb-4">Change Begins With You</p>
+              <p class="mb-5 fs-5 text-white">
+                Help Us Build A Brighter Future. One Child At A Time
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Optional carousel controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+</main>
+
+
+  <section class="container-fluid py-5 bg-light" id="feature-sections">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-window h-100 p-4 bg-white rounded-3 shadow-sm">
+            <div class="window-header d-flex align-items-center mb-4">
+              <div class="window-icon bg-primary bg-opacity-10 text-primary rounded-circle p-3 me-3"><i class="fas fa-heart fa-2x"></i></div>
+              <h3 class="mb-0">Our Mission</h3>
+            </div>
+            <div class="window-content">
+              <p>To provide comprehensive support and medical care for children born with congenital conditions, ensuring they have equal opportunities for a healthy and fulfilling life.</p>
+              <div class="window-image mt-3 mb-3"><img src="home1.jpg" alt="Medical team working with children" class="img-fluid rounded" loading="lazy"></div>
+              <a href="#about" class="btn btn-outline-primary mt-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-window h-100 p-4 bg-white rounded-3 shadow-sm">
+            <div class="window-header d-flex align-items-center mb-4">
+              <div class="window-icon bg-success bg-opacity-10 text-success rounded-circle p-3 me-3"><i class="fas fa-hands-helping fa-2x"></i></div>
+              <h3 class="mb-0">Our Programs</h3>
+            </div>
+            <div class="window-content">
+              <ul class="program-list">
+                <li><i class="fas fa-check-circle text-success me-2"></i> Medical treatment access</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Family support networks</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Community education</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Early intervention</li>
+              </ul>
+              <div class="window-stats d-flex justify-content-around mt-3">
+                <div class="stat-item text-center"><div class="stat-number text-primary fw-bold">500+</div><div class="stat-label">Children Helped</div></div>
+                <div class="stat-item text-center"><div class="stat-number text-primary fw-bold">20+</div><div class="stat-label">Communities</div></div>
+              </div>
+              <a href="#programs" class="btn btn-outline-success mt-3">View Programs</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-window h-100 p-4 bg-white rounded-3 shadow-sm">
+            <div class="window-header d-flex align-items-center mb-4">
+              <div class="window-icon bg-warning bg-opacity-10 text-warning rounded-circle p-3 me-3"><i class="fas fa-users fa-2x"></i></div>
+              <h3 class="mb-0">Get Involved</h3>
+            </div>
+            <div class="window-content">
+              <div class="involve-options">
+                <div class="option-item mb-3 p-3 bg-light rounded">
+                  <h5><i class="fas fa-hand-holding-heart text-warning me-2"></i>Donate</h5>
+                  <p>Support our work with a financial contribution</p>
+                </div>
+                <div class="option-item mb-3 p-3 bg-light rounded">
+                  <h5><i class="fas fa-user-plus text-warning me-2"></i>Volunteer</h5>
+                  <p>Give your time and skills to help children</p>
+                </div>
+                <div class="option-item p-3 bg-light rounded">
+                  <h5><i class="fas fa-bullhorn text-warning me-2"></i>Advocate</h5>
+                  <p>Spread awareness in your community</p>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-warning mt-3 w-100">Join Us Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Load non-critical scripts after DOM -->
+<script>
+    // Remove spinner when page loads
+    window.addEventListener('load', function() {
+        const spinner = document.getElementById('spinner');
+        spinner.style.opacity = '0';
+        setTimeout(() => spinner.remove(), 300);
+        
+        // Initialize carousel with accessibility enhancements
+        const myCarousel = document.querySelector('#carouselId');
+        const carousel = new bootstrap.Carousel(myCarousel, {
+            pause: 'hover',
+            wrap: true,
+            interval: 6000
+        });
+        
+        // Add keyboard navigation for carousel
+        myCarousel.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') {
+                carousel.prev();
+            } else if (e.key === 'ArrowRight') {
+                carousel.next();
+            }
+        });
+        
+        // Add animation to windows when they come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.feature-window').forEach(window => {
+            window.style.opacity = 0;
+            window.style.transform = 'translateY(20px)';
+            window.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(window);
+        });
+    });
+</script>
+
+
+<!-- About Section -->
+<section id="about" class="about-section py-5" aria-labelledby="about-heading">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center">
+      
+      <!-- Image Column -->
+      <div class="col-lg-5">
+        <div class="about-image-container rounded-4 overflow-hidden shadow">
+          <img src="img/about-1.jpg" 
+               class="img-fluid w-100"
+               alt="Team members helping children with congenital conditions"
+               loading="lazy"
+               width="600"
+               height="400">
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-7">
+        <div class="ps-lg-4">
+          <span class="d-inline-block text-gradient text-uppercase fw-bold mb-2" style="font-size: 1.25rem;">About Us</span>
+          <h2 id="about-heading" class="display-5 fw-bold mb-4">Our Story Begins with Compassion</h2>
+          <p class="lead mb-4 text-muted">Founded in 2022 and officially registered in 2024, Contra-Congenital Foundation is dedicated to ensuring every child with congenital anomalies receives the care and support needed for a full, healthy life through research, healthcare, and awareness initiatives.</p>
+
+          <!-- Tabbed Content -->
+          <div class="tabbed-content glass-effect p-4 rounded-4 shadow-sm">
+            <ul class="nav nav-pills mb-4 gap-2 justify-content-start" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="values-tab" data-bs-toggle="pill" data-bs-target="#values" type="button" role="tab">Our Values</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="mission-tab" data-bs-toggle="pill" data-bs-target="#mission" type="button" role="tab">Mission</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="vision-tab" data-bs-toggle="pill" data-bs-target="#vision" type="button" role="tab">Vision</button>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <!-- Values -->
+              <div class="tab-pane fade show active" id="values" role="tabpanel" aria-labelledby="values-tab">
+                <h3 class="h5 mb-3">Core Values That Guide Us</h3>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex align-items-start mb-2">
+                    <i class="bi bi-heart-fill text-gradient me-2 fs-5"></i> Compassion – Putting children and families first
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i class="bi bi-award-fill text-gradient me-2 fs-5"></i> Excellence – Delivering high-quality care
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i class="bi bi-lightbulb-fill text-gradient me-2 fs-5"></i> Innovation – Pioneering new solutions
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i class="bi bi-people-fill text-gradient me-2 fs-5"></i> Collaboration – Working with partners
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="bi bi-shield-fill text-gradient me-2 fs-5"></i> Integrity – Maintaining transparency
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Mission -->
+              <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
+                <h3 class="h5 mb-3">Our Mission</h3>
+                <p class="mb-0 text-muted">To improve the health and well-being of children with congenital anomalies through comprehensive education, compassionate support, and strong advocacy efforts that create systemic change.</p>
+              </div>
+
+              <!-- Vision -->
+              <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
+                <h3 class="h5 mb-3">Our Vision</h3>
+                <p class="mb-0 text-muted">We envision a world where every child, regardless of congenital challenges, enjoys equal opportunities for a healthy, happy childhood and a bright future filled with possibilities.</p>
+              </div>
+            </div>
+          </div> <!-- /.tabbed-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Programs Section -->
+<section id="programs" class="programs-section bg-light py-5" aria-labelledby="programs-heading">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <span class="d-block text-primary text-uppercase fw-bold mb-2" style="font-size: 1.25rem;">Our Programs</span>
+            <h2 id="programs-heading" class="display-5 fw-bold mb-3">Comprehensive Support Initiatives</h2>
+            <p class="lead">We have developed targeted programs to address all aspects of congenital conditions through research, care, and community engagement.</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Community Programs -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden transition-all hover-shadow">
+                    <div class="position-relative">
+                        <img src="pic4.jpg" class="card-img-top" alt="Community support group meeting" loading="lazy" width="400" height="300">
+                        <div class="card-img-overlay d-flex align-items-end p-0">
+                            <h3 class="bg-primary text-white p-3 mb-0 w-100">Community Programs</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Support groups, public awareness campaigns, and educational workshops designed to empower families and build supportive communities.</p>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advocacy Programs -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden transition-all hover-shadow">
+                    <div class="position-relative">
+                        <img src="pic3.jpg" class="card-img-top" alt="Advocates meeting with policymakers" loading="lazy" width="400" height="300">
+                        <div class="card-img-overlay d-flex align-items-end p-0">
+                            <h3 class="bg-primary text-white p-3 mb-0 w-100">Advocacy Programs</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Driving policy changes, building strategic partnerships, and fundraising to promote equity and support for affected individuals.</p>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clinical Programs -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden transition-all hover-shadow">
+                    <div class="position-relative">
+                        <img src="pic2.jpg" class="card-img-top" alt="Doctor examining a child" loading="lazy" width="400" height="300">
+                        <div class="card-img-overlay d-flex align-items-end p-0">
+                            <h3 class="bg-primary text-white p-3 mb-0 w-100">Clinical Programs</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Early intervention services, telemedicine solutions, and specialized clinics to improve healthcare access and outcomes.</p>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Programs -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm overflow-hidden transition-all hover-shadow">
+                    <div class="position-relative">
+                        <img src="pic1.jpg" class="card-img-top" alt="Researchers in laboratory" loading="lazy" width="400" height="300">
+                        <div class="card-img-overlay d-flex align-items-end p-0">
+                            <h3 class="bg-primary text-white p-3 mb-0 w-100">Research Programs</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Pioneering studies on environmental factors, maternal health, and genetic influences to prevent congenital conditions.</p>
+                        <a href="#" class="btn btn-outline-primary stretched-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Achievements Counter -->
+<section class="achievements-counter bg-primary py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <span class="d-block text-white text-uppercase fw-bold mb-2" style="font-size: 1.25rem;">Our Impact</span>
+            <h2 class="display-5 fw-bold text-white mb-3">Making a Measurable Difference</h2>
+            <p class="lead text-white-50">We are proud of our progress in improving lives and raising awareness. Here is what we have accomplished together:</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-card text-center p-4 h-100">
+                    <div class="counter-icon mb-3">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h3 class="h5 mb-3">Individuals Reached</h3>
+                    <div class="counter-number">
+                        <span class="counter-value" data-target="360">0</span>+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-card text-center p-4 h-100">
+                    <div class="counter-icon mb-3">
+                        <i class="bi bi-cash-coin"></i>
+                    </div>
+                    <h3 class="h5 mb-3">Funds Raised (Thousands)</h3>
+                    <div class="counter-number">
+                        $<span class="counter-value" data-target="513">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-card text-center p-4 h-100">
+                    <div class="counter-icon mb-3">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <h3 class="h5 mb-3">Dedicated Volunteers</h3>
+                    <div class="counter-number">
+                        <span class="counter-value" data-target="120">0</span>+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-card text-center p-4 h-100">
+                    <div class="counter-icon mb-3">
+                        <i class="bi bi-calendar-heart"></i>
+                    </div>
+                    <h3 class="h5 mb-3">Days of Service</h3>
+                    <div class="counter-number">
+                        <span class="counter-value" data-target="487">0</span>+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const counters = document.querySelectorAll('.counter-value');
+
+        function animateCounter(counter) {
+            const target = +counter.getAttribute('data-target');
+            let current = 0;
+            const duration = 2000; // animation duration in ms
+            const startTime = performance.now();
+
+            function updateCounter(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const value = Math.floor(progress * target);
+                counter.textContent = value;
+
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.textContent = target; // ensure final value
+                }
+            }
+
+            requestAnimationFrame(updateCounter);
+        }
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.querySelectorAll('.counter-value').forEach(animateCounter);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.achievements-counter').forEach(section => {
+            observer.observe(section);
+        });
+    });
+</script>
+
+
+     <!-- Gallery Start -->
+<section id="gallery" style="min-height:100vh; background:#e4e1e1;">
+    <div class="container-fluid gallery py-5 px-0">
+        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+            <h5 class="text-uppercase text-primary" style="font-size: 2.5rem;">Our Work</h5>
+            <h1 class="mb-4">A Visual Journey of Our Work, Events, and Impact</h1>
+            <p class="mb-0">Every image tells a story of hope, care, and resilience.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Repeat for 6 images -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic1.jpg" alt="Tree Planting">
+                    <div class="overlay">
+                        <a href="pic1.jpg" data-lightbox="gallery" title="Tree Planting">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic2.jpg" alt="Clean-up Drive">
+                    <div class="overlay">
+                        <a href="pic2.jpg" data-lightbox="gallery" title="Clean-up Drive">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic3.jpg" alt="Eco Workshop">
+                    <div class="overlay">
+                        <a href="pic3.jpg" data-lightbox="gallery" title="Eco Workshop">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic4.jpg" alt="School Partnership">
+                    <div class="overlay">
+                        <a href="pic4.jpg" data-lightbox="gallery" title="School Partnership">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic5.jpg" alt="Wildlife Conservation">
+                    <div class="overlay">
+                        <a href="pic5.jpg" data-lightbox="gallery" title="Wildlife Conservation">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="pic6.jpg" alt="Recycling Initiative">
+                    <div class="overlay">
+                        <a href="pic6.jpg" data-lightbox="gallery" title="Recycling Initiative">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery End -->
+
+
+
+        <!-- Donation Start -->
+<section id="donation" class="donation-section">
+    <div class="container-fluid donation-container py-5">
+        <div class="container">
+            <header class="donation-header text-center mx-auto pb-4">
+                <span class="donation-badge text-uppercase">Support Our Cause</span>
+                <h1 class="donation-title">Give the Gift of Hope</h1>
+                <p class="donation-intro">Your contribution directly impacts children with congenital anomalies through vital services, research, and awareness programs.</p>
+            </header>
+
+            <div class="row g-4 donation-options-row">
+                <!-- Donation Options Card -->
+                <div class="col-lg-6">
+                    <article class="donation-card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Ways to Give</h2>
+                            <ul class="donation-features list-unstyled">
+                                <li class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
+                                    <span>One-time or recurring donations</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
+                                    <span>Tribute gifts in someone's honor</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
+                                    <span>In-kind donations (medical equipment, supplies)</span>
+                                </li>
+                                <li class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
+                                    <span>Corporate matching programs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Payment Information Card -->
+                <div class="col-lg-6">
+                    <article class="donation-card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Donation Methods</h2>
+                            <div class="payment-methods">
+                                <div class="method">
+                                    <h3 class="method-title">Bank Transfer</h3>
+                                    <dl class="method-details">
+                                        <dt>Bank Name:</dt>
+                                        <dd>ABC Bank Tanzania</dd>
+                                        <dt>Account Name:</dt>
+                                        <dd>Hope for Children Foundation</dd>
+                                        <dt>Account Number:</dt>
+                                        <dd>0123456789</dd>
+                                    </dl>
+                                </div>
+
+                                <div class="method mt-4">
+                                    <h3 class="method-title">Mobile Payments</h3>
+                                    <ul class="method-details list-unstyled">
+                                        <li><strong>M-Pesa:</strong> +255 747 591 717</li>
+                                        <li><strong>Airtel Money:</strong> +255 682 808 697</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="donation-cta text-center pt-5">
+                <a href="#donate-now" class="btn btn-primary btn-lg cta-button">
+                    <i class="fas fa-heart me-2"></i>Make a Donation
+                </a>
+                <p class="trust-badge mt-3">
+                    <i class="fas fa-lock"></i> Secure donations | Tax-deductible
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Donation End -->
+
+<!-- Staff Section - Complete -->
+<section id="staff" class="staff-section">
+  <div class="container-fluid py-5">
+    <div class="container">
+      <header class="text-center mb-5">
+        <span class="section-badge">Our Team</span>
+        <h1 class="section-title">Meet Our Dedicated Leadership</h1>
+        <p class="section-subtitle">The passionate professionals driving our mission forward</p>
+      </header>
+
+      <div class="row justify-content-center g-4">
+        <!-- Executive Director -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card">
+            <div class="card-image">
+              <img src="img/volunteers-2.jpg" 
+                   class="img-fluid" 
+                   alt="Robert Ochilla Maghibo, Executive Director" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Robert's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:robert@example.org" aria-label="Email Robert"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Robert Ochilla Maghibo</h2>
+              <p class="staff-position">Executive Director</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio1">
+                View Bio
+              </button>
+              <div id="bio1" class="staff-bio collapse">
+                <p>With over 15 years of nonprofit leadership experience, Robert oversees all organizational operations and strategic direction. He holds a Master's in Public Administration.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Financial Director -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card">
+            <div class="card-image">
+              <img src="kareem.jpg" 
+                   class="img-fluid" 
+                   alt="Abdulkareem Shomvi, Financial Director" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Abdulkareem's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:kareem@example.org" aria-label="Email Abdulkareem"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Abdulkareem Shomvi</h2>
+              <p class="staff-position">Financial Director</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio2">
+                View Bio
+              </button>
+              <div id="bio2" class="staff-bio collapse">
+                <p>CPA with 12+ years in nonprofit financial management. Abdulkareem ensures financial sustainability and compliance across all our programs.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Fundraising Director -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card">
+            <div class="card-image">
+              <img src="mwasiti.jpg" 
+                   class="img-fluid" 
+                   alt="Mwasiti Shabani, Fundraising Director" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Mwasiti's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mwasiti@example.org" aria-label="Email Mwasiti"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Mwasiti Shabani</h2>
+              <p class="staff-position">Fundraising Director</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio3">
+                View Bio
+              </button>
+              <div id="bio3" class="staff-bio collapse">
+                <p>Development professional with expertise in major gifts and grant writing. Mwasiti has secured over $2M in funding for our programs.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Executive Secretary -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card">
+            <div class="card-image">
+              <img src="kanju.jpg" 
+                   class="img-fluid" 
+                   alt="Evelyn James Kanju, Executive Secretary" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Evelyn's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:evelyn@example.org" aria-label="Email Evelyn"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Evelyn James Kanju</h2>
+              <p class="staff-position">Executive Secretary</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio4">
+                View Bio
+              </button>
+              <div id="bio4" class="staff-bio collapse">
+                <p>With 8 years of administrative experience in NGOs, Evelyn ensures smooth operations and coordinates between departments.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Communication Director -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card">
+            <div class="card-image">
+              <img src="rukia.jpg" 
+                   class="img-fluid" 
+                   alt="Rukia Izahak Mwanga, Communication Director" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Rukia's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:rukia@example.org" aria-label="Email Rukia"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Rukia Izahak Mwanga</h2>
+              <p class="staff-position">Communication Director</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio5">
+                View Bio
+              </button>
+              <div id="bio5" class="staff-bio collapse">
+                <p>Former journalist with expertise in strategic communications. Rukia leads our public relations and digital media efforts.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Board Chairman -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card board-member">
+            <div class="card-image">
+              <img src="img/staff-6.jpg" 
+                   class="img-fluid" 
+                   alt="Dr. Alex Mremi, Chairman of the board" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Dr. Mremi's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mremi@example.org" aria-label="Email Dr. Mremi"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Dr. Alex Mremi</h2>
+              <p class="staff-position">Chairman of the Board</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio6">
+                View Bio
+              </button>
+              <div id="bio6" class="staff-bio collapse">
+                <p>Pediatric surgeon and child health advocate with 20+ years experience. Dr. Mremi provides strategic guidance and medical expertise.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Board Member 1 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card board-member">
+            <div class="card-image">
+              <img src="img/staff-7.jpg" 
+                   class="img-fluid" 
+                   alt="Michael Maghibo, Board Member" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Michael's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:michael@example.org" aria-label="Email Michael"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Michael Maghibo</h2>
+              <p class="staff-position">Board Member</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio7">
+                View Bio
+              </button>
+              <div id="bio7" class="staff-bio collapse">
+                <p>Business leader specializing in organizational development. Michael brings corporate governance expertise to our board.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Board Member 2 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <article class="staff-card board-member">
+            <div class="card-image">
+              <img src="img/staff-8.jpg" 
+                   class="img-fluid" 
+                   alt="Marycelina Msuya, Board Member" 
+                   loading="lazy"
+                   width="300"
+                   height="300">
+              <div class="social-links">
+                <a href="#" aria-label="Marycelina's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:marycelina@example.org" aria-label="Email Marycelina"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="staff-name">Marycelina Msuya</h2>
+              <p class="staff-position">Board Member</p>
+              <button class="btn btn-sm btn-outline-primary bio-toggle" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#bio8">
+                View Bio
+              </button>
+              <div id="bio8" class="staff-bio collapse">
+                <p>Human rights lawyer focusing on children's rights. Marycelina ensures we maintain the highest ethical standards.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <!-- Volunteer Section -->
+<section id="volunteer" class="volunteer-section py-5">
+  <div class="container">
+    <!-- Volunteer Call-to-Action -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <span class="section-badge">Join Our Team</span>
+        <h1 class="section-title mb-4">Ready to Make a Difference?</h1>
+        <p class="lead-text mb-4">Become part of our mission to support children with congenital anomalies</p>
+        
+        <div class="volunteer-benefits text-start mb-4">
+          <h3 class="benefits-title">How You Can Help:</h3>
+          <ul class="benefits-list">
+            <li><i class="fas fa-hands-helping"></i> Provide direct care and emotional support</li>
+            <li><i class="fas fa-hand-holding-usd"></i> Assist with fundraising campaigns</li>
+            <li><i class="fas fa-calendar-alt"></i> Help organize awareness events</li>
+            <li><i class="fas fa-tasks"></i> Offer administrative support</li>
+            <li><i class="fas fa-user-md"></i> Contribute professional skills (medical, therapy, etc.)</li>
+          </ul>
+        </div>
+
+        <div class="volunteer-process text-start mb-5">
+          <h3 class="process-title">Simple Application Process:</h3>
+          <ol class="process-steps">
+            <li><span>1</span> Complete our online application</li>
+            <li><span>2</span> Attend a virtual orientation session</li>
+            <li><span>3</span> Begin your rewarding volunteer journey</li>
+          </ol>
+        </div>
+
+        <a href="#volunteerForm" class="btn btn-primary btn-apply scroll-to">
+          <i class="fas fa-user-plus me-2"></i>Apply Now
+        </a>
+      </div>
+    </div>
+
+    <!-- Volunteer Application Form -->
+    <div id="volunteerForm" class="volunteer-form mt-5 pt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="form-container p-4 p-md-5">
+            <h2 class="form-title text-center mb-4">Volunteer Application</h2>
+            <form id="volunteerApplicationForm" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName" class="form-label">First Name*</label>
+                  <input type="text" class="form-control" id="firstName" required>
+                  <div class="invalid-feedback">Please provide your first name</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName" class="form-label">Last Name*</label>
+                  <input type="text" class="form-control" id="lastName" required>
+                  <div class="invalid-feedback">Please provide your last name</div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address*</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Please provide a valid email</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number*</label>
+                <input type="tel" class="form-control" id="phone" required>
+                <div class="invalid-feedback">Please provide a contact number</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="skills" class="form-label">Skills & Experience</label>
+                <textarea class="form-control" id="skills" rows="3" placeholder="Medical training, languages spoken, relevant experience..."></textarea>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="availability" class="form-label">Availability*</label>
+                  <select class="form-select" id="availability" required>
+                    <option value="" disabled selected>Select your availability</option>
+                    <option value="weekdays">Weekdays</option>
+                    <option value="weekends">Weekends</option>
+                    <option value="flexible">Flexible</option>
+                  </select>
+                  <div class="invalid-feedback">Please select availability</div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="interest" class="form-label">Area of Interest*</label>
+                  <select class="form-select" id="interest" required>
+                    <option value="" disabled selected>Select interest area</option>
+                    <option value="direct-care">Direct Care</option>
+                    <option value="fundraising">Fundraising</option>
+                    <option value="events">Events</option>
+                    <option value="admin">Administrative</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please select interest area</div>
+                </div>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                <label class="form-check-label" for="agreeTerms">
+                  I agree to the <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a>*
+                </label>
+                <div class="invalid-feedback">You must agree before submitting</div>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-submit">
+                  <i class="fas fa-paper-plane me-2"></i>Submit Application
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Terms Modal -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Volunteer Terms & Conditions</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>By volunteering with us, you agree to:</p>
+        <ul>
+          <li>Maintain confidentiality of patient information</li>
+          <li>Attend required training sessions</li>
+          <li>Follow organizational policies and procedures</li>
+          <li>Commit to scheduled volunteer hours</li>
+        </ul>
+        <p>We may conduct background checks for certain positions.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Form validation and WhatsApp submission
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('volunteerApplicationForm');
+    const phoneInput = document.getElementById('phone');
+    
+    // Initialize phone input formatting
+    phoneInput.addEventListener('input', function(e) {
+      const x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+      e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+    });
+    
+    // Form validation
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      if (!form.checkValidity()) {
+        e.stopPropagation();
+        form.classList.add('was-validated');
+        return;
+      }
+      
+      // Collect form data
+      const formData = {
+        firstName: document.getElementById('firstName').value,
+        lastName: document.getElementById('lastName').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        skills: document.getElementById('skills').value || 'Not specified',
+        availability: document.getElementById('availability').value,
+        interest: document.getElementById('interest').value
+      };
+      
+      // Format WhatsApp message
+      const message = `New Volunteer Application:\n\n` +
+        `*Name:* ${formData.firstName} ${formData.lastName}\n` +
+        `*Email:* ${formData.email}\n` +
+        `*Phone:* ${formData.phone}\n` +
+        `*Skills/Experience:* ${formData.skills}\n` +
+        `*Availability:* ${formData.availability}\n` +
+        `*Interest Area:* ${formData.interest}`;
+      
+      // Encode for URL
+      const encodedMessage = encodeURIComponent(message);
+      
+      // Your WhatsApp number (international format without + or 0)
+      const whatsappNumber = '255626540911'; // Replace with your actual number
+      
+      // Open WhatsApp
+      window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
+      
+      // Reset form
+      form.reset();
+      form.classList.remove('was-validated');
+      
+      // Show success message (you could replace this with a modal)
+      alert('Thank you! Your application has been submitted via WhatsApp.');
+    });
+    
+    // Smooth scrolling to form
+    document.querySelectorAll('.scroll-to').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
+      <!-- Contact Section with Visible Form -->
+<section id="contact" class="contact-section" style="min-height:100vh; background-color: #f8f9fa;">
+  <div class="container py-5">
+    <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+      <h5 class="text-uppercase text-primary mb-3" style="font-size: 1.5rem;">Contact Us</h5>
+      <h1 class="mb-3">Get in Touch or Visit Us in Moshi</h1>
+      <p class="lead">We are here to answer your questions and welcome your support</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left Column: Contact Information -->
+      <div class="col-lg-6">
+        <div class="contact-info p-4 h-100" style="background: white; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05);">
+          <h3 class="mb-4"><i class="fas fa-info-circle text-primary me-2"></i> Our Information</h3>
+          
+          <div class="d-flex mb-4">
+            <div class="me-3 text-primary" style="font-size: 1.5rem;">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p class="mb-1">Longuo A, Moshi</p>
+              <p class="mb-0">Kilimanjaro, Tanzania</p>
+              <a href="#map" class="btn btn-sm btn-link p-0 text-primary">View on map →</a>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="me-3 text-primary" style="font-size: 1.5rem;">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <h4>Phone Numbers</h4>
+              <p class="mb-1"><a href="tel:+255747591717" class="text-dark">+255 747 591 717</a></p>
+              <p class="mb-0"><a href="tel:+255682808697" class="text-dark">+255 682 808 697</a></p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="me-3 text-primary" style="font-size: 1.5rem;">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:contracongenitalfoundation@gmail.com" class="text-dark">
+                contracongenitalfoundation@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="me-3 text-primary" style="font-size: 1.5rem;">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <h4>Office Hours</h4>
+              <p class="mb-1">Monday - Friday: 8:00 AM - 5:00 PM</p>
+              <p class="mb-0">Saturday: 9:00 AM - 1:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Contact Form -->
+      <div class="col-lg-6">
+        <div class="contact-form p-4" style="background: white; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05);">
+          <h3 class="mb-4"><i class="fas fa-paper-plane text-primary me-2"></i> Send Us a Message</h3>
+          
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name *</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject of your message">
+            </div>
+            
+            <div class="mb-3">
+              <label for="message" class="form-label">Message *</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary w-100 py-2">
+              <i class="fas fa-paper-plane me-2"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="row mt-4">
+      <div class="col-12">
+        <div id="map" class="map-container p-0" style="border-radius: 10px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.05);">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.123456789!2d37.30647!3d-3.32207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4a123456789%3A0xabcdef1234567890!2sLonguo%20A%2C%20Moshi%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1681234567890!5m2!1sen!2sus"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            title="Map showing location of Contra-Congenital Foundation, Longuo A, Moshi, Tanzania">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Form submission handler
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value || 'No Subject';
+    const message = document.getElementById('message').value;
+    
+    // Basic validation
+    if (!name || !email || !message) {
+      alert('Please fill in all required fields');
+      return;
+    }
+    
+    // Here you would typically send the data to your server
+    // For this example, we'll just show a success message
+    alert(`Thank you, ${name}! Your message has been sent. We'll contact you soon.`);
+    
+    // Reset form
+    this.reset();
+    
+    // In a real implementation, you might want to:
+    // 1. Send data via AJAX to your backend
+    // 2. Connect to an email service
+    // 3. Or use a service like Formspree
+  });
+  
+  // Smooth scroll to map
+  document.querySelector('a[href="#map"]').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#map').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+</script>
+
+      <!-- Enhanced Footer Section -->
+<footer class="footer-section">
+  <!-- Main Footer Content -->
+  <div class="container-fluid bg-dark py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Logo and About Column -->
+        <div class="col-md-6 col-lg-4">
+          <div class="footer-brand mb-4">
+            <img src="logo1.png" alt="Contra-Congenital Foundation Logo" class="footer-logo">
+          </div>
+          <p class="footer-about">
+            Contra-Congenital Foundation<br>
+            <strong>From Challenges to Triumph</strong>
+          </p>
+          <div class="social-links mt-4">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="col-md-6 col-lg-2">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Our Programs</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info Column -->
+        <div class="col-md-6 col-lg-3">
+          <h3 class="footer-heading">Contact Us</h3>
+          <ul class="footer-contact">
+            <li>
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <span>Longuo A, Moshi<br>Kilimanjaro, Tanzania</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt contact-icon"></i>
+              <span>
+                <a href="tel:+255747591717">+255 747 591 717</a><br>
+                <a href="tel:+255682808697">+255 682 808 697</a>
+              </span>
+            </li>
+            <li>
+              <i class="fas fa-envelope contact-icon"></i>
+              <a href="mailto:contracongenitalfoundation@gmail.com">contracongenitalfoundation@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Column -->
+        <div class="col-md-6 col-lg-3">
+          <h3 class="footer-heading">Stay Updated</h3>
+          <p class="newsletter-text">Subscribe to get our latest updates directly to your inbox.</p>
+          <form class="newsletter-form">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </div>
+          </form>
+          <div class="payment-methods mt-3">
+            <p class="small">We accept donations via:</p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark">M-Pesa</span>
+              <span class="badge bg-light text-dark">Airtel Money</span>
+              <span class="badge bg-light text-dark">Bank Transfer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="copyright-section py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <span class="copyright-text">
+            <i class="far fa-copyright me-1"></i> 
+            2023 Contra-Congenital Foundation. All rights reserved.
+          </span>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <span class="design-credit">
+            Designed with <i class="fas fa-heart text-danger"></i> by your team
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+ <!-- Back to Top Button -->
+<button class="back-to-top" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+</footer>
+
+
+<!-- Scripts -->
+<script>
+  // Back to Top Button
+ 
+  const backToTop = document.querySelector('.back-to-top');
+
+  // Show/hide button on scroll
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 300) {
+      backToTop.classList.add('active');
+    } else {
+      backToTop.classList.remove('active');
+    }
+  });
+
+  // Scroll to top on click
+  backToTop.addEventListener('click', function (e) {
+    e.preventDefault(); // prevent default <a href="#"> behavior
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+
+
+  // Smooth scrolling for footer links
+  document.querySelectorAll('.footer-links a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      if (targetId.startsWith('#')) {
+        document.querySelector(targetId).scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // Newsletter form submission
+  document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = this.querySelector('input[type="email"]').value;
+    if (email) {
+      alert('Thank you for subscribing! We will keep you updated.');
+      this.reset();
+    }
+  });
+</script>
+ 
+</body>
+</html>
